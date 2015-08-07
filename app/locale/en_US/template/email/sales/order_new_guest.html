@@ -1,11 +1,11 @@
-<!--@subject {{var store.getFrontendName()}}: New Order # {{var order.increment_id}} @-->
+<!--@subject {{var store.getFrontendName()}}: Order # {{var order.increment_id}} @-->
 <!--@vars
 {"store url=\"\"":"Store Url",
 "var logo_url":"Email Logo Image Url",
 "var logo_alt":"Email Logo Image Alt",
-"htmlescape var=$order.getCustomerName()":"Customer Name",
+"htmlescape var=$order.getCustomerName()":"Guest Customer Name",
 "var store.getFrontendName()":"Store Name",
-"store url=\"customer/account/\"":"Customer Account Url",
+
 "var order.increment_id":"Order Id",
 "var order.getCreatedAtFormated('long')":"Order Created At (datetime)",
 "var order.getBillingAddress().format('html')":"Billing Address",
@@ -15,6 +15,7 @@
 "layout handle=\"sales_email_order_items\" order=$order":"Order Items Grid",
 "var order.getEmailCustomerNote()":"Email Order Note"}
 @-->
+
 <!--@styles
 @-->
 
@@ -62,16 +63,16 @@
                     {{/depend}}
                 </tr>
                 <tr>
-                    {{depend order.getIsNotVirtual()}}
-                    <td class="method-info">
-                        <h6>Shipping method:</h6>
-                        <p>{{var order.shipping_description}}</p>
-                    </td>
-                    {{/depend}}
                     <td class="method-info">
                         <h6>Payment method:</h6>
                         {{var payment_html}}
                     </td>
+                    {{depend order.getIsNotVirtual()}}
+                    <td class="method-info">
+                        <h6>Shipping method:</h6>
+                        <p>{{var order.getShippingDescription()}}</p>
+                    </td>
+                    {{/depend}}
                 </tr>
             </table>
         </td>
