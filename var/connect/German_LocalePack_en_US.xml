@@ -10,10 +10,12 @@
 
 English language pack for Magento Commerce
 
-Paquete de idioma inglés para Magento Commerce</description>
+Paquete de idioma inglés para Magento Commerce
+
+E-Mail-Templates until Magento v1.9.3</description>
    <license>OSL</license>
    <license_uri>http://opensource.org/licenses/osl-3.0.php</license_uri>
-   <version>1.0.0</version>
+   <version>1.1.0</version>
    <stability>stable</stability>
    <notes>Install custom English (US) E-Mail Templates only!
 

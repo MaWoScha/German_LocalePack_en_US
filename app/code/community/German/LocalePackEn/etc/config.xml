@@ -11,7 +11,7 @@
 <config>
     <modules>
         <German_LocalePackEn>
-            <version>1.0.0</version>
+            <version>1.1.0</version>
             <locale>en_US</locale>
             <title>English (General) Language Pack</title>
             <link_git>https://github.com/MaWoScha/German_LocalePack_en_US</link_git>
@@ -54,6 +54,15 @@
                 </connection>
             </localepacken_setup>
         </resources>
+        <template>
+            <email>
+                <design_email_support translate="label" module="core">
+                    <label>Email - Support</label>
+                    <file>html/support.html</file>
+                    <type>text</type>
+                </design_email_support>
+            </email>
+        </template>
     </global>
 
     <default>
