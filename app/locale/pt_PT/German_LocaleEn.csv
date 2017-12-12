@@ -1,3 +1,4 @@
+"Language Packs","Pacotes de Idioma"
 "Attention: Your Locale Pack doesn\'t match your Magento Version. <a href='%s'>Get more information here.</a>","Aviso: O seu pacote de idioma não corresponde à versão do Magento. Saiba mais <a href='%s'>aqui</a>."
 "English (General)","Inglês (Geral)"
 "English (Australia)","Inglês (Austrália)"
@@ -27,4 +28,5 @@
 "custom stores","lojas personalizadas"
 "This is your individual language pack that is only managed and maintained by you.","É o seu próprio pacote de idioma pessoal que é gerido e mantido apenas por você."
 "Adjust the file ""%s"" with your name and the link to your website.","Defina o arquivo ""%s"" com seu nome e link para seu site."
+"More Infos here soon!","Mais informações aqui em breve!"
 "Fill out the language files in ""app/locale/en_ZZ"" with your own translations and never lose again your customizations.","Preencha os arquivos de idioma em ""app/locale/en_ZZ"" com suas próprias traduções e nunca perder suas personalizações novamente."

@@ -69,6 +69,7 @@
       ["./app/locale/en_US/German_LocaleEn.csv", "./app/locale/en_US/German_LocaleEn.csv"],
       ["./app/locale/es_ES/German_LocaleEn.csv", "./app/locale/es_ES/German_LocaleEn.csv"],
       ["./app/locale/fr_FR/German_LocaleEn.csv", "./app/locale/fr_FR/German_LocaleEn.csv"],
+      ["./app/locale/it_IT/German_LocaleEn.csv", "./app/locale/it_IT/German_LocaleEn.csv"],
       ["./app/locale/pt_PT/German_LocaleEn.csv", "./app/locale/pt_PT/German_LocaleEn.csv"]
     ]
   },

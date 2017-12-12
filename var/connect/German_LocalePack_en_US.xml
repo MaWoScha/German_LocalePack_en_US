@@ -15,7 +15,7 @@ Paquete de idioma inglés para Magento Commerce
 E-Mail-Templates until Magento v1.9.3</description>
    <license>OSL</license>
    <license_uri>http://opensource.org/licenses/osl-3.0.php</license_uri>
-   <version>1.1.0</version>
+   <version>1.2.0</version>
    <stability>stable</stability>
    <notes>Install custom English (US) E-Mail Templates only!
 
@@ -75,6 +75,7 @@ CMS Static Blocks will be installed into magentos database.</notes>
          <target>magelocale</target>
          <target>magelocale</target>
          <target>magelocale</target>
+         <target>magelocale</target>
       </target>
       <path>
          <path/>
@@ -86,6 +87,7 @@ CMS Static Blocks will be installed into magentos database.</notes>
          <path>en_US/German_LocaleEn.csv</path>
          <path>es_ES/German_LocaleEn.csv</path>
          <path>fr_FR/German_LocaleEn.csv</path>
+         <path>it_IT/German_LocaleEn.csv</path>
          <path>pt_PT/German_LocaleEn.csv</path>
       </path>
       <type>
@@ -93,6 +95,7 @@ CMS Static Blocks will be installed into magentos database.</notes>
          <type>dir</type>
          <type>file</type>
          <type>dir</type>
+         <type>file</type>
          <type>file</type>
          <type>file</type>
          <type>file</type>
@@ -111,9 +114,11 @@ CMS Static Blocks will be installed into magentos database.</notes>
          <include/>
          <include/>
          <include/>
+         <include/>
       </include>
       <ignore>
          <ignore/>
+         <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>

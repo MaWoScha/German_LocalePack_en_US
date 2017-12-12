@@ -1,3 +1,4 @@
+"Language Packs","Language Packs"
 "Attention: Your Locale Pack doesn\'t match your Magento Version. <a href='%s'>Get more information here.</a>","Attention: Your Locale Pack doesn\'t match your Magento Version. <a href='%s'>Get more information here.</a>"
 "English (General)","English (General)"
 "English (Australia)","English (Australia)"
@@ -27,4 +28,5 @@
 "custom stores","custom stores"
 "This is your individual language pack that is only managed and maintained by you.","This is your individual language pack that is only managed and maintained by you."
 "Adjust the file ""%s"" with your name and the link to your website.","Adjust the file ""%s"" with your name and the link to your website."
+"More Infos here soon!","More Infos here soon!"
 "Fill out the language files in ""app/locale/en_ZZ"" with your own translations and never lose again your customizations.","Fill out the language files in ""app/locale/en_ZZ"" with your own translations and never lose again your customizations."
