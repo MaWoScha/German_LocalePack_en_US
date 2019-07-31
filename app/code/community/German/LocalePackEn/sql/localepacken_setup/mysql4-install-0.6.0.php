@@ -25,7 +25,7 @@ $staticBlocks = array(
     array(
         'title'         => 'eMail Template Say Hello (en)',
         'identifier'    => 'email_template_say_hello',
-        'content'       => 'Dear,',
+        'content'       => 'Dear',
         'is_active'     => 0,
         'stores'        => array($storeId)
     ),
