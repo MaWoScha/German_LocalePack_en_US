@@ -32,7 +32,7 @@ CMS Static Blocks will be installed into magentos database.</notes>
       </email>
    </authors>
    <depends_php_min>5.2.0</depends_php_min>
-   <depends_php_max>6.0.0</depends_php_max>
+   <depends_php_max>7.5.0</depends_php_max>
    <depends>
       <package>
          <name>
@@ -76,6 +76,7 @@ CMS Static Blocks will be installed into magentos database.</notes>
          <target>magelocale</target>
          <target>magelocale</target>
          <target>magelocale</target>
+         <target>magelocale</target>
       </target>
       <path>
          <path/>
@@ -88,6 +89,7 @@ CMS Static Blocks will be installed into magentos database.</notes>
          <path>es_ES/German_LocaleEn.csv</path>
          <path>fr_FR/German_LocaleEn.csv</path>
          <path>it_IT/German_LocaleEn.csv</path>
+         <path>nl_NL/German_LocaleEn.csv</path>
          <path>pt_PT/German_LocaleEn.csv</path>
       </path>
       <type>
@@ -95,6 +97,7 @@ CMS Static Blocks will be installed into magentos database.</notes>
          <type>dir</type>
          <type>file</type>
          <type>dir</type>
+         <type>file</type>
          <type>file</type>
          <type>file</type>
          <type>file</type>
@@ -115,9 +118,11 @@ CMS Static Blocks will be installed into magentos database.</notes>
          <include/>
          <include/>
          <include/>
+         <include/>
       </include>
       <ignore>
          <ignore/>
+         <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
