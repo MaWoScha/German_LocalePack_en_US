@@ -21,7 +21,7 @@
             <h1>{{block type="cms/block" block_id="email_template_say_hello"}} {{htmlescape var=$customer.name}}</h1>
             <p>Your email {{var customer.email}} must be confirmed before using it to log in to our store.</p>
             <p>Click here to confirm your email and instantly log in (the link is valid only once):</p>
-            <table cellspacing="0" cellpadding="0" class="action-button" >
+            <table cellspacing="0" cellpadding="0" class="action-button">
                 <tr>
                     <td>
                         <a href="{{store url="customer/account/confirm/" _query_id=$customer.id _query_key=$customer.confirmation _query_back_url=$back_url}}"><span>Confirm Account</span></a>
